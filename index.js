@@ -34,7 +34,7 @@ function loginPassword() {
 function loginPageValidate() {
 
     if (loginUsername() && loginPassword()) {
-        window.location = "/Home.html"
+        window.location = "Home.html"
     }
 
 }
@@ -189,6 +189,6 @@ function signUpConfirmPassword() {
 function signUpValidations() {
 
     if (signUpEmail() && signUpUsername() && signUpPhone() && signUpPassword() && signUpConfirmPassword()) {
-        window.location = "/Home.html"
+        window.location = "Home.html"
     }
 }
